@@ -1,7 +1,7 @@
 package sdet46_TY;
 
-public class hello {
-
+public class hello 
+{
 	public static void main(String[] args) 
 	{
 		String 	BROWSER=System.getProperty("browser");
@@ -9,5 +9,4 @@ public class hello {
 		
 		System.out.println("BROWSER   ==>> "+BROWSER+" ,URL ==>> "+ENV);
 	}
-
 }
